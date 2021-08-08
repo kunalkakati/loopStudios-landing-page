@@ -1,0 +1,316 @@
+
+
+/* Home page.................. */
+.page-1{
+    height: 90vh;
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-bar{
+    color: var(--color-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav-bar h1{
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    width: 100px;
+    text-align: center;
+}
+
+.link a{
+    color: var(--color-1);
+    text-decoration: none;
+     font-family: var(--font-2);
+     transition: all .3s ease;
+}
+
+.link a:hover{
+    border-bottom: 3px solid var(--color-1);
+   box-sizing: border-box;
+   width: 5px;
+    
+}
+
+
+.content-box{
+    margin: 160px 0;
+    width: 38vw;
+    height: auto;
+    border: 3px solid var(--color-1);
+    padding: 30px;
+}
+
+.content-box h1{
+    font-size: 4vw;
+    font-family: var(--font-1);
+    font-weight: 400;
+    color: var(--color-1);
+}
+
+
+.page-2{
+    padding: 150px 0;
+    position: relative;
+}
+
+.mobile{
+    display: none;
+}
+
+.page-2-info{
+    width: 35%;
+    height: 25vh;
+    padding: 100px;
+    background-color: var(--color-1);
+    position: absolute;
+    right: 4%;
+    top: 40%;
+}
+
+.page-2-info h1{
+    font-size: 3rem;
+    font-family: var(--font-1);
+    padding-bottom: 20px;
+}
+
+.page-2-info p{
+    color: var(--color-2);
+    line-height: 1.5;
+}
+
+
+.creation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    height: 100px;
+}
+
+.creation h1{
+    font-size: 2.5rem;
+}
+
+.btn{
+    font-family: var(--font-2);
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid var(--color-3);
+    color: var(--color-3);
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all .3s ease-in;
+    border-radius: 2px;
+}
+
+.btn:hover{
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+
+.image-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: auto;
+    gap: 41px;
+    position: relative;
+    margin: 100px 0;
+}
+
+.items{
+    height: 450px;
+    width: 256px;
+    color: white;
+}
+
+
+.items h1{
+    padding: 20px;
+    margin-top: 300px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    width: 200px;
+}
+
+.hov{
+    color: black;
+}
+
+.img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.img-1::before{
+    background-image: url("./images/desktop/image-grid.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-2::before{
+    background-image: url("./images/desktop/image-curiosity.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-3::before{
+    background-image: url("./images/desktop/image-deep-earth.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-4::before{
+    background-image: url("./images/desktop/image-fisheye.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-5::before{
+    background-image: url("./images/desktop/image-night-arcade.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-6::before{
+    background-image: url("./images/desktop/image-soccer-team.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-7::before{
+    background-image: url("./images/desktop/image-pocket-borealis.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.img-8::before{
+    background-image: url("./images/desktop/image-from-above.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.img-1:hover::before,.img-2:hover::before,.img-3:hover::before,.img-4:hover::before,.img-5:hover::before,v,.img-6:hover::before,.img-7:hover::before,.img-8:hover::before{
+  opacity: .4;
+}
+
+
+
+.footer{
+    height: 153px;
+    width: 100%;
+    background-color: var(--color-3);
+    color: white;
+   
+}
+
+.footer-content{
+    padding: 35px 0;
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.footer-link{
+    width: 80px;
+}
+
+.footer-link a{
+    color: var(--color-1);
+    text-decoration: none;
+    font-family: var(--font-1);
+    transition: all .3s ease-out;
+}
+
+.footer-link a:hover{
+    border-bottom: 2px solid var(--color-1);
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav p{
+    color: var(--color-2);
+}
+
+.icon img{
+    padding:3px 10px;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.icon img:hover{
+    border-bottom: 2px solid var(--color-1);
+}
